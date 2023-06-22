@@ -2,7 +2,9 @@ package iterators;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 
+import static iterators.PuedeDarPremio.premiar;
 public class iterators {
     public static void main(String[] args) {
         ///*********** USO DE EXTERNAL ITERATORS   *****************
@@ -28,16 +30,36 @@ public class iterators {
 
                 );
 
+        Persona persona2 = new Persona(1,"kkk",2.0);
+
+
         ///********  USO DE INTERFAZ FUNCIONAL  CON ONTERNAL ITERATORS
-        personaList.forEach(persona -> new PuedeDarPremioImpl(persona).premiar());
-        personaList.forEach(persona -> System.out.println(persona));
-
-        //**** EJERCICIO CREAR EXPRESIONES LAMBDA CON INTERFACES FUNCIONALES
-        //****  SACAR LOS IMPUESTOS Y EL SUELDO NETO BRUTO DE UNA PERSONA CON LAMBDAS
+        personaList.forEach( persona -> PuedeDarPremio.premiar(persona));
+        personaList.forEach(System.out::println);
 
 
+        ///********  USO DE INTERFAZ FUNCIONAL  ethod reference
+        personaList.forEach(PuedeDarPremio::premiar);
+        personaList.forEach(System.out::println);
+        personaList.forEach(persona -> new PuedeDarPremioImpl().premiar(persona));
+        personaList.forEach(System.out::println);
 
+        personaList.forEach(persona -> premiar(persona));
+        personaList.forEach(System.out::println);
+
+        personaList.forEach(dalePremio());
+        personaList.forEach(System.out::println);
+
+
+
+        personaList.forEach(System.out::println);
 
 
     }
+
+    private static Consumer<Persona> dalePremio() {
+        return persona -> premiar(persona);
+    }
+
+
 }
