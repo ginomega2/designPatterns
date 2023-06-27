@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c725ecec-9e66-4c73-a2f1-808803b5a488" name="Changes" comment="kjhg khg">
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/FilePrinterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/FuncionesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/predicates/PredicatesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/producers/ProducersRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/ConsolePrinterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/ConsolePrinterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/Runlambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/Runlambdas.java" afterDir="false" />
-    </list>
+    <list default="true" id="c725ecec-9e66-4c73-a2f1-808803b5a488" name="Changes" comment="kjhg khg" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +146,7 @@
       <workItem from="1687479778138" duration="117000" />
       <workItem from="1687828974064" duration="12106000" />
       <workItem from="1687841489864" duration="190000" />
-      <workItem from="1687841755454" duration="11858000" />
+      <workItem from="1687841755454" duration="13174000" />
     </task>
     <task id="LOCAL-00001" summary="kjhg khg">
       <created>1687444070459</created>
@@ -185,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687848964932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="kjhg khg">
+      <created>1687866334237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687866334237</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
