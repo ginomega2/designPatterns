@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c725ecec-9e66-4c73-a2f1-808803b5a488" name="Changes" comment="kjhg khg">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDeJava/RunnerInterfacesDeJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesDeJava/interfaces de java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer/ImpuestoGrabavle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer/runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/Colores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/ConsolePrinterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/Ejem1Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/MiFuncion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/MiMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/Runlambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consumer/bicosumer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consumer/consumer.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/consumer/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consumer/runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,31 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/krsnamint/proyectos/fullstack/designPatterns/src/InterfacesDeJava&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "introduce.parameter.lambda": "true",
+    "last_opened_file_path": "/home/krsnamint/proyectos/fullstack/designPatterns/src/consumer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="funcInterfaces" />
       <recent name="iterators" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/consumer" />
       <recent name="$PROJECT_DIR$/src/InterfacesDeJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ejem1Runner">
+  <component name="RunManager" selected="Application.runner">
     <configuration name="Ejem1Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="funcInterfaces.Ejem1Runner" />
       <module name="designPatterns" />
@@ -139,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.runner" />
         <item itemvalue="Application.Ejem1Runner" />
         <item itemvalue="Application.MiMain" />
         <item itemvalue="Application.Runlambdas" />
-        <item itemvalue="Application.runner" />
         <item itemvalue="Application.iterators" />
       </list>
     </recent_temporary>
@@ -160,7 +151,7 @@
       <workItem from="1687479778138" duration="117000" />
       <workItem from="1687828974064" duration="12106000" />
       <workItem from="1687841489864" duration="190000" />
-      <workItem from="1687841755454" duration="1266000" />
+      <workItem from="1687841755454" duration="4464000" />
     </task>
     <task id="LOCAL-00001" summary="kjhg khg">
       <created>1687444070459</created>
@@ -176,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687477907996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kjhg khg">
+      <created>1687845500717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687845500717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
