@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c725ecec-9e66-4c73-a2f1-808803b5a488" name="Changes" comment="kjhg khg">
-      <change afterPath="$PROJECT_DIR$/src/consumer/bicosumer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consumer/consumer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/funcInterfaces/FilePrinterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions/FuncionesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/predicates/PredicatesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/producers/ProducersRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/consumer/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/consumer/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/ConsolePrinterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/ConsolePrinterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/funcInterfaces/Runlambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/funcInterfaces/Runlambdas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +66,13 @@
       <recent name="$PROJECT_DIR$/src/InterfacesDeJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.runner">
-    <configuration name="Ejem1Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcInterfaces.Ejem1Runner" />
+  <component name="RunManager" selected="Application.MiMain">
+    <configuration name="FuncionesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functions.FuncionesRunner" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcInterfaces.*" />
+          <option name="PATTERN" value="functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runlambdas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="funcInterfaces.Runlambdas" />
+    <configuration name="PredicatesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="predicates.PredicatesRunner" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="funcInterfaces.*" />
+          <option name="PATTERN" value="predicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iterators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iterators.iterators" />
+    <configuration name="ProducersRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="producers.ProducersRunner" />
       <module name="designPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iterators.*" />
+          <option name="PATTERN" value="producers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.runner" />
-        <item itemvalue="Application.Ejem1Runner" />
         <item itemvalue="Application.MiMain" />
-        <item itemvalue="Application.Runlambdas" />
-        <item itemvalue="Application.iterators" />
+        <item itemvalue="Application.PredicatesRunner" />
+        <item itemvalue="Application.FuncionesRunner" />
+        <item itemvalue="Application.ProducersRunner" />
+        <item itemvalue="Application.runner" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +155,7 @@
       <workItem from="1687479778138" duration="117000" />
       <workItem from="1687828974064" duration="12106000" />
       <workItem from="1687841489864" duration="190000" />
-      <workItem from="1687841755454" duration="4464000" />
+      <workItem from="1687841755454" duration="11858000" />
     </task>
     <task id="LOCAL-00001" summary="kjhg khg">
       <created>1687444070459</created>
@@ -174,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687845500717</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="kjhg khg">
+      <created>1687848964932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687848964932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

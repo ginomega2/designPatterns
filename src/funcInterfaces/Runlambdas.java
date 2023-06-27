@@ -17,7 +17,7 @@ public class Runlambdas {
         saludar(new ConsolePrinterImpl()); //**  PASO 5 LLAMADA CON IMPLEMENTACION ConsolePrinterImpl
         saludar(new Printer() {     //**  PASO 6 LLAMADA CON imple anonima
             @Override
-            public void print(String mensaje) {
+            public void imprime(String mensaje) {
                 System.out.println("printer anonima" +mensaje);
             }
         });
@@ -31,13 +31,13 @@ public class Runlambdas {
         //*** TAMBIEN PODEMOS USARLA COMO INA VARIABLE
         //**  PASO 9 ASIGNAR UNA IMPLEMENTACION CONCRETA A UNA VARIABLE
         Printer printer = new ConsolePrinterImpl();
-        printer.print("implementacion concreta asignada a una variable");
+        printer.imprime("implementacion concreta asignada a una variable");
         //**** PASO 10 se puede usar la variable creada printer  y enviarla como parametro
         saludar(printer);
 
         //***** PASO 11   TAMBIEN PODEMOS ASIGNAR UNA LAMBDA  A UNA VARIABLE
         Printer printerLambda =  mensaje -> System.out.println(mensaje);
-        printerLambda.print("implementacion con una lambda guradada en una variable");
+        printerLambda.imprime("implementacion con una lambda guradada en una variable");
         saludar(printerLambda); // usamos la variable con lambda en la llamada al metodo
 
         // **** PASO 12  USO DE OTRAS VARIABLE DENTRO DE UNA LAMBDA variables locales sufijo y prefijo
@@ -71,6 +71,10 @@ public class Runlambdas {
         saludar(Runlambdas::new);
 
 
+        //***** IMPRIMIR EN ARCHIVO
+        var archivo = new FilePrinterImpl();
+        archivo.imprime("esto se va al archivo");
+//        saludar(archivo);
 
 
 
@@ -94,7 +98,7 @@ public class Runlambdas {
     }
 
     public static void saludar(Printer printer) {  ////*****     PASO 4  CREAR metodo para llamar a saludar new ConsolePrinterImpl *************************************
-        printer.print(" saludar ");
+        printer.imprime(" saludar ");
     }
 
 
